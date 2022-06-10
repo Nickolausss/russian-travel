@@ -1,0 +1,40 @@
+.places {
+    flex-shrink: 0;
+    display: grid;
+    grid-row-gap: 80px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1140px) {
+    .places {
+        padding: 0 48px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .places {
+        padding: 0 24px;
+        grid-row-gap: 73px;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    .places {
+        padding: 0 23px;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .places {
+        padding: 0 2px;
+        grid-row-gap: 60px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .places {
+        padding: 0;
+        grid-row-gap: 50px;
+    }
+}
