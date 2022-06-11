@@ -1,27 +1,9 @@
 .lead__image {
-    background-image: url(../../../images/lead-image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    object-fit: contain;
+    object-position: center center;
+    max-width: 100%;
+    min-height: auto;
     width: 100%;
-    min-height: 615px;
-    margin: 0 auto 8px auto;
-}
-
-@media screen and (max-width: 1140px) {
-    .lead__image {
-        min-height: 580px;
-    }
-}
-
-@media screen and (max-width: 984px) {
-    .lead__image {
-        min-height: 480px;
-    }
-}
-
-@media screen and (max-width: 568px) {
-    .lead__image {
-        min-height: 200px;
-    }
+    height: auto;
+    margin: 0 0 8px 0;
 }

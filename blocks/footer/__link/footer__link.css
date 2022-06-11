@@ -6,11 +6,18 @@
     line-height: 18px;
     text-decoration: none;
     margin: 0 18px 0 0;
+    transition: opacity 0.2s linear;
 }
 
-@media screen and (max-width: 578px) {
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 642px) {
     .footer__link {
-        margin-right: 14px;
+        margin-right: 10px;
+        font-size: 15px;
+        line-height: 16px;
     }
 }
 

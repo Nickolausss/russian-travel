@@ -21,16 +21,9 @@
     }
 }
 
-@media screen and (max-width: 648px) {
+@media screen and (max-width: 767px) {
     .place__paragraphes {
-        max-width: 340px;
-        padding: 0 6px;
-    }
-}
-
-@media screen and (max-width: 568px) {
-    .place__paragraphes {
-        max-width: auto;
+        max-width: 288px;
         padding: 0 16px;
     }
 }
