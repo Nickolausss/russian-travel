@@ -18,9 +18,9 @@
     }
 }
 
-@media screen and (max-width: 648px) {
+@media screen and (max-width: 767px) {
     .place {
-        grid-column-gap: 10px;
+        grid-column-gap: 0;
     }
 }
 

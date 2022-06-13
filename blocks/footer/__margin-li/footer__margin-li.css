@@ -6,4 +6,8 @@
     .footer__margin-li {
         margin: 0 0 32px 0;
     }
+
+    .footer__margin-li:last-of-type {
+        margin-bottom: 0;
+    }
 }

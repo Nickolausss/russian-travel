@@ -1,5 +1,5 @@
 .place__image {
-    grid-area: "image";
+    grid-area: image;
     max-width: 100%;
     min-height: auto;
     width: 100%;
@@ -8,8 +8,15 @@
     object-position: center center;
 }
 
+@media screen and (max-width: 768px) {
+    .place__image {
+        max-width: 340px;
+    }
+}
+
 @media screen and (max-width: 568px) {
     .place__image {
         margin-bottom: 32px;
+        max-width: 100%;
     }
 }

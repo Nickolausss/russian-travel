@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 701px) {
+@media screen and (max-width: 708px) {
     .lead__title {
         max-width: 500px;
         font-size: 70px;
