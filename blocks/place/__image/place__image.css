@@ -8,9 +8,24 @@
     object-position: center center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1140px) {
     .place__image {
-        max-width: 340px;
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .place__image {
+        min-width: 340px;
+        padding-left: 24px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__image {
+        min-width: 250px;
+        padding-left: 0;
     }
 }
 

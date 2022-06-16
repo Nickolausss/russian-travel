@@ -20,9 +20,9 @@
 
 @media screen and (max-width: 767px) {
     .place {
-        grid-column-gap: 0;
+        grid-column-gap: 14px;
     }
-}
+} 
 
 @media screen and (max-width: 568px) {
     .place {
